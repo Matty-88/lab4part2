@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        fetch("https://lab4-pqu4.onrender.com/api/definitions", {
+        fetch("https://lab4-8zqb.onrender.com/api/definitions", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ word, definition })
